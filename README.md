@@ -1,17 +1,21 @@
-# Agent Development Kit (ADK) Samples
+# ตัวอย่าง Agent Development Kit (ADK)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 <img src="https://github.com/google/adk-docs/blob/main/docs/assets/agent-development-kit.png" alt="Agent Development Kit Logo" width="150">
 
-Welcome to the ADK Sample Agents repository! This collection provides ready-to-use agents built on top of the [Agent Development Kit](https://google.github.io/adk-docs/), designed to accelerate your development process. These agents cover a range of common use cases and complexities, from simple conversational bots to complex multi-agent workflows.
+ยินดีต้อนรับสู่คลังตัวอย่าง Agent ของ ADK! ที่นี่คุณจะพบกับเอเจนต์ตัวอย่างที่พร้อมใช้งานซึ่งสร้างขึ้นบน [Agent Development Kit](https://google.github.io/adk-docs/) เพื่อช่วยให้คุณเริ่มต้นพัฒนาได้อย่างรวดเร็ว
 
-## ✨ Getting Started 
-This repo contains ADK sample agents for both **Python** and **Java.** Navigate to the **[Python](python/)** and **[Java](java/)** subfolders to see language-specific setup instructions, and learn more about the available sample agents. 
+## ✨ เริ่มต้นใช้งาน
 
-To learn more, check out the [ADK Documentation](https://google.github.io/adk-docs/), and the GitHub repositories for [ADK Python](https://github.com/google/adk-python) and [ADK Java](https://github.com/google/adk-java). 
+รีโป้นี้ประกอบด้วยตัวอย่างเอเจนต์ ADK ทั้ง **ภาษา Python** และ **Java**  
+ให้เข้าไปดูแต่ละภาษาได้ที่โฟลเดอร์ **[Python](python/)** และ **[Java](java/)** เพื่อดูคำแนะนำการติดตั้งและรายละเอียดการใช้สำหรับแต่ละภาษา
 
-## 🌳 Repository Structure
+ศึกษารายละเอียดเพิ่มเติมได้ที่ [เอกสาร ADK](https://google.github.io/adk-docs/)  
+และที่ GitHub: [ADK Python](https://github.com/google/adk-python) และ [ADK Java](https://github.com/google/adk-java)
+
+## 🌳 โครงสร้างรีโป
+
 ```bash
 ├── java
 │   ├── agents
@@ -33,24 +37,29 @@ To learn more, check out the [ADK Documentation](https://google.github.io/adk-do
 │   │   ├── README.md
 │   │   ├── software-bug-assistant  
 │   │   └── travel-concierge
-│   └── README.md
+│   └── README.md
 └── README.md
 ```
 
-## ℹ️ Getting help
+## ℹ️ ขอความช่วยเหลือ
 
-If you have any questions or if you found any problems with this repository, please report through [GitHub issues](https://github.com/google/adk-samples/issues).
+หากมีคำถามหรือพบปัญหาเกี่ยวกับรีโป้นี้ สามารถแจ้งได้ที่ [GitHub issues](https://github.com/google/adk-samples/issues)
 
-## 🤝 Contributing
+## 🤝 การร่วมพัฒนา
 
-We welcome contributions from the community! Whether it's bug reports, feature requests, documentation improvements, or code contributions, please see our [**Contributing Guidelines**](https://github.com/google/adk-samples/blob/main/CONTRIBUTING.md) to get started.
+ยินดีต้อนรับทุกคนที่ต้องการร่วมพัฒนา! ไม่ว่าจะเป็นรายงานบั๊ก, ขอเพิ่มฟีเจอร์, ปรับปรุงเอกสาร หรือส่งโค้ดใหม่ๆ  
+โปรดดูรายละเอียดวิธีการมีส่วนร่วมที่ [**Contributing Guidelines**](https://github.com/google/adk-samples/blob/main/CONTRIBUTING.md)
 
-## 📄 License
+## 📄 ลิขสิทธิ์
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE](https://github.com/google/adk-samples/blob/main/LICENSE) file for details.
+โปรเจกต์นี้อยู่ภายใต้สัญญาอนุญาต Apache 2.0 – ดูรายละเอียดได้ที่ [LICENSE](https://github.com/google/adk-samples/blob/main/LICENSE)
 
-## Disclaimers
+## ข้อจำกัดความรับผิดชอบ
 
-This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).
+- โครงการนี้ไม่ได้รับการสนับสนุนอย่างเป็นทางการจาก Google
+- โปรเจกต์นี้ไม่สามารถเข้าร่วมใน [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security-rewards/) ได้
+- โปรเจกต์นี้จัดทำขึ้นเพื่อการสาธิตเท่านั้น ไม่เหมาะสำหรับการนำไปใช้ในระบบ production
 
-This project is intended for demonstration purposes only. It is not intended for use in a production environment.
+---
+
+หากต้องการแปล README ของส่วน Python/Java หรือเอเจนต์แต่ละตัว) แจ้งชื่อโฟลเดอร์หรือไฟล์เพิ่มเติมได้เลย!
