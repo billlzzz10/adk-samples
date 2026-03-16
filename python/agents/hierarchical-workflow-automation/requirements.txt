@@ -7,8 +7,8 @@ annotated-types==0.7.0
 anyio==4.10.0
 asyncio-mqtt==0.16.2
 attrs==25.3.0
-Authlib==1.6.3
-black==25.1.0
+Authlib==1.6.9
+black==26.3.1
 Bottleneck==1.6.0
 cachetools==5.5.2
 certifi==2025.8.3
@@ -71,7 +71,7 @@ langchain-community==0.3.29
 langchain-core==0.3.76
 langchain-google-vertexai==2.1.2
 langchain-text-splitters==0.3.11
-langgraph==0.3.34
+langgraph==1.0.10rc1
 langgraph-checkpoint==2.1.1
 langgraph-prebuilt==0.1.8
 langgraph-sdk==0.1.74
@@ -96,7 +96,7 @@ opentelemetry-instrumentation==0.57b0
 opentelemetry-resourcedetector-gcp==1.9.0a0
 opentelemetry-sdk==1.36.0
 opentelemetry-semantic-conventions==0.57b0
-orjson==3.11.3
+orjson==3.11.6
 ormsgpack==1.10.0
 packaging==25.0
 paho-mqtt==2.1.0
