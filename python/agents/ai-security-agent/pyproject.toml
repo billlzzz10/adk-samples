@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 
 dependencies = [
-    "google-adk>=1.18.0",
+    "google-adk>=1.30.0",
     "google-genai>=1.9.0",
     "google-cloud-aiplatform>=1.127.0",
     "python-dotenv>=1.2.1",
@@ -20,7 +20,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "pytest>=8.0.0",
+    "pytest>=9.0.3",
     "pytest-asyncio>=0.24.0",
     "ruff>=0.4.6",
     "mypy>=1.18.2",
