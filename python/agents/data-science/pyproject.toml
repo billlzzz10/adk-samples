@@ -31,7 +31,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "google-cloud-aiplatform[adk,agent-engines,evaluation]>=1.93.0",
-    "pytest>=8.3.5",
+    "pytest>=9.0.3",
     "pytest-asyncio>=0.26.0",
     "google-adk[eval]>=1.14",
     "ruff>=0.4.6",
