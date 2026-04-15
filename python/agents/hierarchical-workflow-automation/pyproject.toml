@@ -11,7 +11,7 @@ requires-python = ">=3.10"
 
 # Main dependencies extracted from your requirements list
 dependencies = [
-    "google-adk==1.13.0",
+    "google-adk==1.28.1",
     "google-cloud-aiplatform==1.118.0",
     "google-cloud-bigquery==3.36.0",
     "google-cloud-storage==2.19.0",
@@ -29,7 +29,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "pytest==8.4.2",
+    "pytest==9.0.3",
     "pytest-asyncio==1.1.0",
     "pytest-mock==3.14.1",
     "black==25.1.0",
