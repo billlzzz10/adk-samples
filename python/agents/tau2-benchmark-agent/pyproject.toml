@@ -20,7 +20,7 @@ tau2 = { git = "https://github.com/sierra-research/tau2-bench.git", rev = "cc97b
 
 [dependency-groups]
 dev = [
-    "pytest>=8.0.0",
+    "pytest>=9.0.3",
     "pytest-asyncio>=0.23.0",
     "agent-starter-pack>=0.32.0",
 ]
