@@ -10,8 +10,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 
 dependencies = [
-    "python-dotenv>=1.0.1",
-    "google-adk>=1.14",
+    "python-dotenv>=1.2.2",
+    "google-adk>=1.31.1",
     "immutabledict>=4.2.1",
     "sqlglot>=26.10.1",
     "db-dtypes>=1.4.2",
@@ -31,9 +31,9 @@ dependencies = [
 [dependency-groups]
 dev = [
     "google-cloud-aiplatform[adk,agent-engines,evaluation]>=1.93.0",
-    "pytest>=8.3.5",
+    "pytest>=9.0.3",
     "pytest-asyncio>=0.26.0",
-    "google-adk[eval]>=1.14",
+    "google-adk[eval]>=1.31.1",
     "ruff>=0.4.6",
     "agent-starter-pack>=0.14.1",
 ]
