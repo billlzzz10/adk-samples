@@ -26,7 +26,7 @@ license = "Apache-2.0"
 requires-python = ">=3.11,<3.14"
 
 dependencies = [
-    "google-adk>=1.27.4",
+    "google-adk>=1.28.1",
     "google-auth>=2.45.0",
     "google-cloud-aiplatform[agent-engines]>=1.142.0",
     "google-cloud-modelarmor>=0.4.0",
