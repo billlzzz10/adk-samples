@@ -9,7 +9,7 @@ readme = "README.md"
 requires-python = ">=3.12,<4"
 dependencies = [
     "google-cloud-bigquery (>=3.36.0,<4.0.0)",
-    "google-adk (>=1.0.0,<2.0.0)",
+    "google-adk>=1.28.1,<2.0.0",
     "google-cloud-aiplatform[adk,agent-engines]>=1.132.0",
     "google-genai>=1.56.0",
     "db-dtypes (>=1.4.3,<2.0.0)",
