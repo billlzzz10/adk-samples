@@ -5,7 +5,7 @@ description = "The agent uses the **Gemini** model and **Google Search** groundi
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "google-adk>=1.28.0",
+    "google-adk>=1.28.1",
     "google-auth>=2.49.1",
     "python-dotenv>=1.2.2",
 ]
