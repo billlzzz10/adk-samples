@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10,<3.13"
 
 dependencies = [
-    "google-adk>=1.13.0",
+    "google-adk>=1.28.1",
     "google-cloud-aiplatform[adk,agent-engines]>=1.118.0",
     "google-cloud-bigquery>=3.36.0",
     "google-cloud-storage>=2.19.0",
