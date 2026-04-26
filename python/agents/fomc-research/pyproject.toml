@@ -12,7 +12,7 @@ requires-python = ">=3.11"
 dependencies = [
     "absl-py>=2.2.1",
     "diff-match-patch>=20241021",
-    "google-adk>=1.0.0",
+    "google-adk>=1.28.1",
     "google-cloud-bigquery>=3.30.0",
     "google-genai>=1.5.0",
     "pdfplumber>=0.11.5",
